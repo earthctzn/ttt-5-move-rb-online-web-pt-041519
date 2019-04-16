@@ -9,11 +9,10 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(number)
-  number = {}
-  number.each do |n|
-    n = n.to_i(number)
+  number = number.to_i - 1
 end
 
 def move(number)
+  
   
 end
