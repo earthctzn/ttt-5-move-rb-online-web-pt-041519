@@ -12,7 +12,6 @@ def input_to_index(input)
   input = input.to_i - 1
 end
 
-def move(number)
-  (board, position, place = "X")
+def move(board, position, place = "X")
   board[position] = place
 end
